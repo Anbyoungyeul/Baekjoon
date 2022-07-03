@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int n=0, count=0, min=100000, max=-100000;
+    int n=0, count=0, min=100000, max=-100000; # 최댓값 최솟값 설정
     scanf("%d", &count);
     for(int i=0;i<count;i++)
     {
@@ -12,6 +12,6 @@ int main(void)
         if(n<min)
             min=n;
     }
-    printf("%d %d", min,max);
+    printf("%d %d", min,max); 
     return 0;
 }
